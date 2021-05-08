@@ -1,10 +1,10 @@
 from rest_framework import serializers
 from .models import Room
-from users.serializer import UserSerializer
+from users.serializer import ReadUserSerializer
 
 
 class RoomSerializer(serializers.ModelSerializer):
-    user = UserSerializer()
+    user = ReadUserSerializer()
     class Meta:
         model = Room
         exclude = ("modified",)
