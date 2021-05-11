@@ -1,6 +1,6 @@
-# Airbnb API
+# Django API
 
-REST & GraphQL API of the Airbnb Clone using Django REST Framework and Graphene GraphQL
+Demonstration of the Airbnb Clone using Django REST Framework.
 
 ### API Actions
 
